@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Arrow from "../components/main/arrow";
+import Arrow from "../components/main/Arrow";
 import Footer from "../components/main/Footer";
 import Rings from "../components/main/Rings";
 

@@ -1,7 +1,7 @@
 function Arrow() {
   return (
     <div className="">
-      <svg width="48" height="48" fill="white" viewBox="0 0 24 24">
+      <svg width="48" height="48" fill="none" viewBox="0 0 24 24">
         <path
           stroke="white"
           strokeLinecap="round"

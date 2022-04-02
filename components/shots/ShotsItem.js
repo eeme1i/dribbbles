@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Arrow from "../main/arrow";
+import Arrow from "../main/Arrow";
 
 function ShotsItem({ name, url, shoturl, orig }) {
   return (
@@ -14,7 +14,7 @@ function ShotsItem({ name, url, shoturl, orig }) {
         </div>
       </div>
       <Link href={shoturl}>
-        <a className="rounded-2xl text-white w-20 bg-blue-500 hover:bg-blue-600 duration-300 flex justify-center items-center">
+        <a className="rounded-2xl w-20 bg-blue-500 hover:bg-blue-600 duration-300 flex justify-center items-center">
           <Arrow />
         </a>
       </Link>
