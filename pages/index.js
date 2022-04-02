@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Arrow from "../components/main/arrow";
 import Footer from "../components/main/Footer";
 import Rings from "../components/main/Rings";
 
@@ -25,22 +26,7 @@ export default function Home() {
           <Link href="/shots">
             <a className="flex items-center justify-center max-w-[20rem] px-8 py-2 rounded-xl bg-blue-500 hover:bg-blue-600 duration-300 text-white space-x-2">
               <p>Continue to shots</p>
-              <svg width="48" height="48" fill="none" viewBox="0 0 24 24">
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  d="M13.75 6.75L19.25 12L13.75 17.25"
-                />
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  d="M19 12H4.75"
-                />
-              </svg>
+              <Arrow />
             </a>
           </Link>
         </div>
