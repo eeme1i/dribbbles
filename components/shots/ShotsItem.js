@@ -3,7 +3,7 @@ import Arrow from "../main/Arrow";
 
 function ShotsItem({ name, url, shoturl, orig }) {
   return (
-    <div className="justify-between flex rounded-xl bg-neutral-800">
+    <div className="justify-between flex rounded-xl bg-neutral-800 hover:bg-neutral-900 duration-300">
       <div className="pl-8 py-4">
         <p>{name}</p>
         <div className="text-neutral-400">
