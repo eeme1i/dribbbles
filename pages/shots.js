@@ -15,7 +15,7 @@ export default function Shots() {
 
       <main className="flex pb-8 justify-center text-md px-8">
         <div className="my-16 z-10 max-w-[40rem] rounded-3xl space-y-8 w-screen px-8 py-16 bg-black/[0.25] backdrop-blur-md">
-          <div className="flex text-neutral-500">
+          <div className="flex text-neutral-3 00">
             <p className="text-5xl sm:text-8xl font-semibold tracking-tighter">
               Dribbbles
             </p>
@@ -23,17 +23,12 @@ export default function Shots() {
           </div>
           <div className="space-y-4">
             <ShotsItem
-              name="item1"
-              orig="eemeli"
-              url="/"
+              itemname="Sidebar Navigation"
+              orig="Michal Parulski"
+              durl="https://dribbble.com/shots/17511216-Sidebar-Navigation"
               shoturl="/shots/item1"
+              userurl="https://dribbble.com/Shuma87"
             />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
-            <ShotsItem name="something" orig="someone" url="/" shoturl="/" />
           </div>
         </div>
         <Rings />

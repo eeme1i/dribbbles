@@ -16,7 +16,7 @@ export default function Home() {
       <main className="relative flex h-screen px-8 sm:px-0 pb-8 items-center justify-center text-xl">
         <div className="z-10 bg-black/[0.25] backdrop-blur-md max-w-[42rem] p-8 sm:p-16 rounded-3xl space-y-8">
           <div>
-            <p className="text-5xl sm:text-8xl font-semibold tracking-tighter text-neutral-500">
+            <p className="text-5xl sm:text-8xl font-semibold tracking-tighter text-neutral-300">
               Dribbbles
             </p>
             <p className="tracking-tight text-neutral-400">

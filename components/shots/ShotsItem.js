@@ -1,14 +1,16 @@
 import Link from "next/link";
 import Arrow from "../main/Arrow";
 
-function ShotsItem({ name, url, shoturl, orig }) {
+function ShotsItem({ itemname, durl, userurl, shoturl, orig }) {
   return (
-    <div className="justify-between flex rounded-xl bg-neutral-800 hover:bg-neutral-900 duration-300">
+    <div className="justify-between flex rounded-xl bg-neutral-800 hover:bg-neutral-900 duration-150">
       <div className="pl-8 py-4">
-        <p>{name}</p>
+        <Link href={durl}>
+          <a className="hover:underline"> {itemname}</a>
+        </Link>
         <div className="text-neutral-400">
           by:{" "}
-          <Link href={url}>
+          <Link href={userurl}>
             <a className=" hover:underline">{orig}</a>
           </Link>
         </div>

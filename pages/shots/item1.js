@@ -12,8 +12,129 @@ export default function item1() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex pb-8 justify-center text-md px-8"></main>
-      <ShotID url="/" name="item1" orig="eemeli" />
+      <main className="flex pb-8 justify-center min-h-screen items-center text-md px-8">
+        <div className="w-[20rem] h-[48rem] rounded-3xl bg-neutral-50 p-8 space-y-8">
+          {/* user */}
+          <div className="flex space-x-2">
+            <div className="h-10 w-10 bg-blue-600 rounded-xl"></div>
+            <div className="text-lg tracking-tight -space-y-2">
+              <p className="font-bold text-neutral-800">widelab</p>
+              <p className="text-base text-neutral-400">Team plan</p>
+            </div>
+          </div>
+          {/* stack 1 */}
+          <div className="space-y-4">
+            {/* search */}
+            <div className="flex items-center space-x-2 px-2 h-10 w-full bg-neutral-200 rounded-xl border-neutral-300 border-4">
+              <div className="text-neural-500">
+                <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
+                  <path
+                    stroke="#a3a3a3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
+                  ></path>
+                </svg>
+              </div>
+              <input
+                placeholder="Search"
+                className="text-neutral-500 h-full w-full border-0 bg-transparent resize-none outline-none"
+              ></input>
+            </div>
+            {/* stack 1 items  */}
+            <div className="space-y-2">
+              <div className="flex items-center px-1 space-x-2">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                <div className="text-neutral-800 text-lg font-medium">
+                  Inbox
+                </div>
+              </div>
+              <div className="flex items-center px-1 space-x-2">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                <div className="text-neutral-800 text-lg font-medium">
+                  Activity
+                </div>
+              </div>
+              <div className="flex items-center px-1 space-x-2">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                    stroke="#737373"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                <div className="text-neutral-800 text-lg font-medium">
+                  Schedule
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <ShotID
+        url="https://dribbble.com/shots/17511216-Sidebar-Navigation"
+        userurl="https://dribbble.com/Shuma87"
+        name="Sidebar Navigation"
+        orig="Michal Parulski"
+      />
       <Footer />
     </div>
   );
