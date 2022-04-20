@@ -13,9 +13,9 @@ export default function item1() {
       </Head>
 
       <main className="flex pb-8 justify-center min-h-screen items-center text-md px-8">
-        <div className="w-[20rem] h-[48rem] rounded-3xl bg-neutral-50 p-8 space-y-8">
+        <div className="w-[20rem] h-[48rem] rounded-3xl bg-neutral-50 p-4 space-y-8">
           {/* user */}
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 p-4">
             <div className="h-10 w-10 bg-blue-600 rounded-xl"></div>
             <div className="text-lg tracking-tight -space-y-2">
               <p className="font-bold text-neutral-800">widelab</p>
@@ -43,88 +43,94 @@ export default function item1() {
               ></input>
             </div>
             {/* stack 1 items  */}
-            <div className="space-y-2">
-              <div className="flex items-center px-1 space-x-2">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                  <path
-                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-                <div className="text-neutral-800 text-lg font-medium">
-                  Inbox
-                </div>
-              </div>
-              <div className="flex items-center px-1 space-x-2">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                  <path
-                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-                <div className="text-neutral-800 text-lg font-medium">
-                  Activity
-                </div>
-              </div>
-              <div className="flex items-center px-1 space-x-2">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                  <path
-                    d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
-                    stroke="#737373"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </svg>
-                <div className="text-neutral-800 text-lg font-medium">
-                  Schedule
-                </div>
-              </div>
+            <div className="">
+              <Link href="/">
+                <a className="hover:bg-neutral-100 flex items-center px-2 py-1 rounded-xl space-x-2 duration-150">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <div className="text-neutral-800 text-lg font-medium">
+                    Inbox
+                  </div>
+                </a>
+              </Link>
+              <Link href="/">
+                <a className="hover:bg-neutral-100 flex items-center px-2 py-1 rounded-xl space-x-2 duration-150">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <div className="text-neutral-800 text-lg font-medium">
+                    Inbox
+                  </div>
+                </a>
+              </Link>
+              <Link href="/">
+                <a className="hover:bg-neutral-100 flex items-center px-2 py-1 rounded-xl space-x-2 duration-150">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
+                      stroke="#737373"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <div className="text-neutral-800 text-lg font-medium">
+                    Inbox
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

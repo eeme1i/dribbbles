@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import Footer from "../components/main/Footer";
-import Rings from "../components/main/Rings";
-import ShotsItem from "../components/shots/ShotsItem";
+import Footer from "../../components/main/Footer";
+import Rings from "../../components/main/Rings";
+import ShotsItem from "../../components/shots/ShotsItem";
 
 export default function Shots() {
   return (
