@@ -7,7 +7,7 @@ function Footer(MotionConstraints) {
       <div className="hover:bg-black/[0.4] duration-300  flex space-x-8 bg-black/[0.5] rounded-full px-16 py-4 backdrop-blur-lg">
         <FooterLink url="/" value="Home" />
         <FooterLink url="/shots" value="Shots" />
-        <FooterLink url="/" value="Contact" />
+        <FooterLink url="mailto:eemeliruoh@gmail.com" value="Contact" />
       </div>
     </motion.div>
   );

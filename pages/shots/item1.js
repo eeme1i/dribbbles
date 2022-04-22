@@ -13,7 +13,7 @@ export default function item1() {
       </Head>
 
       <main className="flex pb-8 justify-center min-h-screen items-center text-md px-8">
-        <div className="w-[20rem] h-[48rem] rounded-3xl bg-neutral-50 p-4 space-y-8">
+        <div className="w-[20rem] h-[48rem] rounded-3xl bg-neutral-50 p-4 space-y-4">
           {/* user */}
           <div className="flex space-x-2 p-4">
             <div className="h-10 w-10 bg-blue-600 rounded-xl"></div>
@@ -25,7 +25,7 @@ export default function item1() {
           {/* stack 1 */}
           <div className="space-y-4">
             {/* search */}
-            <div className="flex items-center space-x-2 px-2 h-10 w-full bg-neutral-200 rounded-xl border-neutral-300 border-4">
+            <div className="flex items-center space-x-2 px-2 h-10 w-full bg-neutral-100 rounded-xl border-neutral-300 border-4">
               <div className="text-neural-500">
                 <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
                   <path
@@ -56,16 +56,16 @@ export default function item1() {
                     <path
                       d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     ></path>
                     <path
                       d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     ></path>
                   </svg>
                   <div className="text-neutral-800 text-lg font-medium">
@@ -75,60 +75,89 @@ export default function item1() {
               </Link>
               <Link href="/">
                 <a className="hover:bg-neutral-100 flex items-center px-2 py-1 rounded-xl space-x-2 duration-150">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
                     <path
-                      d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M17.25 12V10C17.25 7.1005 14.8995 4.75 12 4.75C9.10051 4.75 6.75 7.10051 6.75 10V12L4.75 16.25H19.25L17.25 12Z"
                     ></path>
                     <path
-                      d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M9 16.75C9 16.75 9 19.25 12 19.25C15 19.25 15 16.75 15 16.75"
                     ></path>
                   </svg>
                   <div className="text-neutral-800 text-lg font-medium">
-                    Inbox
+                    Activity
                   </div>
                 </a>
               </Link>
               <Link href="/">
                 <a className="hover:bg-neutral-100 flex items-center px-2 py-1 rounded-xl space-x-2 duration-150">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
                     <path
-                      d="M12 4.75L19.25 9L12 13.25L4.75 9L12 4.75Z"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M4.75 8.75C4.75 7.64543 5.64543 6.75 6.75 6.75H17.25C18.3546 6.75 19.25 7.64543 19.25 8.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H6.75C5.64543 19.25 4.75 18.3546 4.75 17.25V8.75Z"
                     ></path>
                     <path
-                      d="M9.25 12L4.75 15L12 19.25L19.25 15L14.6722 12"
                       stroke="#737373"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M8 4.75V8.25"
+                    ></path>
+                    <path
+                      stroke="#737373"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M16 4.75V8.25"
+                    ></path>
+                    <path
+                      stroke="#737373"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M7.75 10.75H16.25"
                     ></path>
                   </svg>
                   <div className="text-neutral-800 text-lg font-medium">
-                    Inbox
+                    Schedule
                   </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className="px-2 w-full h-0.5 bg-neutral-200"></div>
+          {/* stack 2 */}
+          <div className="space-y-4 px-2">
+            <div className="flex text-base justify-between items-center">
+              <p>Shared</p>
+              <Link href="/">
+                <a className="p-1 hover:bg-neutral-100 rounded-lg duration-150">
+                  <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M12 5.75V18.25"
+                    ></path>
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M18.25 12L5.75 12"
+                    ></path>
+                  </svg>
                 </a>
               </Link>
             </div>
