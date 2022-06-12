@@ -11,3 +11,17 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: "Satoshi";
+    font-weight: "700";
+    src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Satoshi";
+    font-weight: "500";
+    src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
+  }
+}

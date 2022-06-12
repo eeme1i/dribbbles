@@ -8,7 +8,11 @@ module.exports = {
       sans: ["Inter"],
       mono: ["Space Mono", "monospace"],
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        satoshi: "Satoshi",
+      },
+    },
   },
   plugins: [],
 };

@@ -29,6 +29,13 @@ export default function Shots() {
               shoturl="/shots/item1"
               userurl="https://dribbble.com/Shuma87"
             />
+            <ShotsItem
+              itemname="movieinfo"
+              orig="eemeli"
+              durl="/shots"
+              shoturl="/shots/movieinfo"
+              userurl="/shots"
+            />
           </div>
         </div>
         <Rings />
